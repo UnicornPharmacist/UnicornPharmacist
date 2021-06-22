@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <title>UnicornPharmacist</title>
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style.css">
+</head>
 
 <body>
 
@@ -58,10 +60,10 @@
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Besides Pharmacy, I also love cooking and baking! From local delights like "Burn-your-face-off MALA" to bougie avocado toasts, I'm always down to try out new recipes (and force people to try them). Having said that, I tend to enjoy baking more! My favourites are my strawberry shortcake cupcakes
-          although I also do bake simple brownies and cookies from time to time. Was really tempted to jump on the sourdough bandwagon during Circuit Breaker but.. bread is something I still have never baked successfully (stay tuned). <br><br>
-          I'm also a fan of music! My current obsession is the "Dear Evan Hansen" musical on Broadway~. Up until recently, I was leading an acapella group in Tembusu College (called the Tembusu Treblemakers - yes, we came up with that name before Pitch Perfect).
-          The highlight of my singing career was getting to sing at the same event as Nathan Hartono and The Sam Willows. Oh and I also play the violin and paint with watercolours sometimes :D
+      <p>Besides Pharmacy, I also love cooking and baking! From local delights like curry chicken to bougie avocado toasts, I'm always down to try out new recipes (and force people to try them). Having said that, I tend to enjoy baking more! My favourites are strawberry shortcake cupcakes,
+          although I also do bake simple brownies and cookies from time to time. I was really tempted to jump on the sourdough bandwagon during the Circuit Breaker but... bread is something I have yet to bake successfully (stay tuned). <br><br>
+          I'm also a fan of music! My current obsession is the "Dear Evan Hansen" musical on Broadway. Up until recently, I was leading an acapella group in Tembusu College (called the Tembusu Treblemakers - yes, we came up with that name before Pitch Perfect).
+          The highlight of my singing career was getting to sing at the same event as Nathan Hartono and The Sam Willows. Oh, and I also play the violin and create watercolour paintings!
       </p>
     </div>
   </div>
@@ -95,7 +97,7 @@
 </div>
 
 <!-- Container (Education Section)-->
-<div class="w3-content w3-container w3-padding-32" id="education">
+<div class="w3-content w3-container w3-padding-64" id="education">
   <h3 class="w3-center">EDUCATION & ACTIVITIES</h3>
   <div class="w3-row-padding" style="margin:0 -16px">
     <div class="w3-third w3-margin-bottom">
@@ -115,7 +117,6 @@
         <li class="w3-padding-16">Public Health Working Group</li>
         <li class="w3-padding-16">TFigure (Founder)</li>
         <li class="w3-padding-16">Student's Council - Marketing</li>
-
       </ul>
     </div>
     
@@ -133,9 +134,9 @@
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-16">
+<div class="w3-content w3-container" id="activities">
   <h3 class="w3-center">MY ACTIVITIES</h3>
-  <p class="w3-center"><em>Here are some pictures of my latest endeavours.<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>Here are some pictures of my latest endeavours<br> Click on the images to make them bigger</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
@@ -211,21 +212,21 @@
 </div>
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-16" id="contact">
+<div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">WHERE I WORK</h3>
   <p class="w3-center"><em>I'd love to get in touch!</em></p>
 
-  <div class="w3-row w3-padding-8 w3-section">
-    <div class="w3-col m4 w3-container">
+  <div class="w3-row w3-padding-8 w3-section w3-center">
+    <!-- <div class="w3-col m4 w3-container">
       <img src="images/NUSPharm.png" class="w3-image w3-round" style="width:70%">
-    </div>
-    <div class="w3-col m8 w3-panel">
+    </div> -->
+    <div class="w3-panel w3-center">
       <div class="w3-large w3-margin-top">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right w3-margin-top"></i> Singapore, SG<br>
         <!--<i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +65 91140643<br>-->
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: silas.new@u.nus.edu<br>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or drop me an email!</p>
+      <p class="w3-center">Swing by for a cup of <i class="fa fa-coffee"></i>, or drop me an email!</p>
       <!--
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
@@ -248,11 +249,11 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-pale-red w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <a href="#home" class="w3-btn w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <a class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com/SilasSnew"></a>
-    <a class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com/silassnew/"></a>
-    <a class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/silas-new-1398941a6/"></a>
+    <a id="fb" class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com/SilasSnew"></a>
+    <a id="ig" class="fa fa-instagram w3-hover-opacity w3-margin-right w3-margin-left" href="https://www.instagram.com/silassnew/"></a>
+    <a id="linkedin" class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/silas-new-1398941a6/"></a>
   </div>
 </footer>
  
